@@ -41,7 +41,7 @@ body{
     text-decoration: none;
     color: azure;
     padding-top: 15px;
-    box-sizing: border-box;
+    display: block;
 }
 
 #tabs-bottom {
@@ -90,9 +90,6 @@ body{
     display: block;
     margin: auto;
     margin-top: 12px
-
-    
- 
 }
 .info-box > img{
     height: 70px;
@@ -120,5 +117,53 @@ body{
     float: right;
     margin-top: 25px;
     height: 40px;
+}
 
+/* Animals Content */
+
+#info-box-full {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#info-box-full > img {
+        display: block;
+        margin: auto;
+        width: 50%;
+}
+
+#info-box-full > h3 {
+    text-align: center;
+}
+img.info-box-weather-icon{
+height : 30px;
+width  : 30px;
+margin : 10px;
+float  :left;
+}
+h1.info-box-weather-icon{
+font-size  : 65px;
+font-weight: 200;
+padding    : 0;
+margin     : 0;
+}
+#info-box-full-weather{
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+    items-align: center;
+}
+#tabs-top > a:hover {
+     background-color: #0c460e;
+
+}
+#tabs-bottom > a:hover {
+    background-color: #0c460e;
 }
