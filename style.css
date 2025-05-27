@@ -72,6 +72,7 @@ body{
 
 #main{
     background-image: url(images/map-blur.png);
+    background-size: cover;
     margin-top: 119px;
     width: 100%;
 }
@@ -135,6 +136,11 @@ body{
         margin: auto;
         width: 50%;
 }
+#info-box-full-map > img {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
 
 #info-box-full > h3 {
     text-align: center;
@@ -158,12 +164,36 @@ margin     : 0;
     margin: auto;
     margin-top: 12px;
     padding: 10px;
-    items-align: center;
+    
 }
 #tabs-top > a:hover {
-     background-color: #0c460e;
+     color:rgb(219, 250, 79);
+     tab-size: 0%;
 
 }
 #tabs-bottom > a:hover {
-    background-color: #0c460e;
+    color: rgb(219, 250, 79);
+}
+input{
+width: 100%;
+height: 25px;
+margin : 12px 0;
+border : 1px solid #929292;
+}
+textarea{
+width: 100%;
+height :25px;
+margin : 12px 0;
+border : 1px solid #929292;
+}
+.button{
+display : block;
+background-color: forestgreen;
+text-decoration : none;
+text-align  : center;
+color       : white;
+font-size   : 16px;
+font-weight : 600;
+margin : 12px 0;
+padding : 8px 0;
 }
